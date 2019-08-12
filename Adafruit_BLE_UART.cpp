@@ -24,7 +24,7 @@ All text above, and the splash screen below must be included in any redistributi
 #include <ble_system.h>
 #include <lib_aci.h>
 #include <aci_setup.h>
-#include "uart/services.h"
+#include <uart/services.h>
 
 #include "Adafruit_BLE_UART.h"
 

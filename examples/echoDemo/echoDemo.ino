@@ -32,11 +32,11 @@ Adafruit_BLE_UART BTLEserial = Adafruit_BLE_UART(ADAFRUITBLE_REQ, ADAFRUITBLE_RD
 /**************************************************************************/
 void setup(void)
 { 
-  Serial.begin(9600);
+  Serial.begin(115200);
   while(!Serial); // Leonardo/Micro should wait for serial init
   Serial.println(F("Adafruit Bluefruit Low Energy nRF8001 Print echo demo"));
 
-  // BTLEserial.setDeviceName("NEWNAME"); /* 7 characters max! */
+  BTLEserial.setDeviceName("DigiEgg"); /* 7 characters max! */
 
   BTLEserial.begin();
 }

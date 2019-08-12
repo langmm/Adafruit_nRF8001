@@ -16,7 +16,7 @@
 */
 
 #include <SPI.h>
-#include "hal_platform.h"
+#include "./hal_platform.h"
 #include "hal/hal_aci_tl.h"
 #include "hal/hal_io.h"
 #include "ble_system.h"
